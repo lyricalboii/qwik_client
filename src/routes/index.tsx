@@ -1,4 +1,26 @@
-import { component$ } from "@builder.io/qwik";
+
+import ImgMigrate from '~/media/assets/img/migrate.png?jsx';
+import ImgTechnology from '~/media/assets/img/technology.png?jsx';
+import ImgBackup from '~/media/assets/img/backup.png?jsx';
+import ImgCpanel from '~/media/assets/img/cpanel.png?jsx';
+import ImgFeatureImg from '~/media/assets/img/feature-img.png?jsx';
+import ImgConsultMan from '~/media/assets/img/consult-man.png?jsx';
+import ImgStamps from '~/media/assets/img/brands/stamps.png?jsx';
+import ImgBlog2 from '~/media/assets/img/blog-2.jpg?jsx';
+import ImgBlog1 from '~/media/assets/img/blog-1.jpg?jsx';
+import ImgAuthor2 from '~/media/assets/img/author-2.png?jsx';
+import ImgBlog3 from '~/media/assets/img/blog-3.jpg?jsx';
+import ImgAuthor1 from '~/media/assets/img/author-1.png?jsx';
+import ImgAuthor3 from '~/media/assets/img/author-3.png?jsx';
+import ImgAuthor4 from '~/media/assets/img/author-4.png?jsx';
+import ImgBlog4 from '~/media/assets/img/blog-4.jpg?jsx';
+import ImgJoomla from '~/media/assets/img/brands/joomla.png?jsx';
+import ImgApp2 from '~/media/assets/img/brands/app-2.png?jsx';
+import ImgOsticker from '~/media/assets/img/brands/osticker.png?jsx';
+import ImgMobile from '~/media/assets/img/brands/mobile.png?jsx';
+import ImgWordpress from '~/media/assets/img/brands/wordpress.png?jsx';
+import ImgZencart from '~/media/assets/img/brands/zencart.png?jsx';
+import ImgApp3 from '~/media/assets/img/brands/app-3.png?jsx';import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
@@ -613,7 +635,7 @@ export default component$(() => {
               </div>
               <div class="col-lg-6">
                 <div class="hero-right">
-                  <img srcSet="assets/img/hero-img.png"  alt="hero image" />
+                  <img width="702" height="626" srcSet="assets/img/hero-img.png"  alt="hero image" />
                 </div>
               </div>
             </div>
@@ -1047,8 +1069,7 @@ export default component$(() => {
             </div>
             <div class="col-lg-5 order-1 order-lg-2">
               <div class="migrate-feature-img mb-5 mb-lg-0">
-                <img
-                  src="assets/img/migrate.png"
+                <ImgMigrate
                   alt="migrate"
                   class="img-fluid"
                 />
@@ -1071,8 +1092,7 @@ export default component$(() => {
                   World Class Best Hosting <br />
                   Feature For You.
                 </h2>
-                <img
-                  src="assets/img/feature-img.png"
+                <ImgFeatureImg
                   alt="feature image"
                   class="img-fluid"
                 />
@@ -1082,8 +1102,7 @@ export default component$(() => {
               <div class="feature-right">
                 <div class="feature-item d-flex align-items-center bg-white rounded-2 deep-shadow">
                   <div class="promo-top flex-shrink-0">
-                    <img
-                      src="assets/img/cpanel.png"
+                    <ImgCpanel
                       alt="capnel"
                       class="img-fluid"
                     />
@@ -1098,8 +1117,7 @@ export default component$(() => {
                 </div>
                 <div class="feature-item d-flex align-items-center bg-white rounded-2 deep-shadow">
                   <div class="promo-top flex-shrink-0">
-                    <img
-                      src="assets/img/backup.png"
+                    <ImgBackup
                       alt="backup"
                       class="img-fluid"
                     />
@@ -1114,8 +1132,7 @@ export default component$(() => {
                 </div>
                 <div class="feature-item d-flex align-items-center bg-white rounded-2 deep-shadow">
                   <div class="promo-top flex-shrink-0">
-                    <img
-                      src="assets/img/technology.png"
+                    <ImgTechnology
                       alt="technology"
                       class="img-fluid"
                     />
@@ -1202,8 +1219,7 @@ export default component$(() => {
               </div>
               <div class="col-lg-5 align-self-end">
                 <div class="consult-right">
-                  <img
-                    src="assets/img/consult-man.png"
+                  <ImgConsultMan
                     alt="man"
                     class="img-fluid"
                   />
@@ -1749,8 +1765,7 @@ export default component$(() => {
                     incentivize models before stand-alone technologies top-line data
                     with empowered meservices."
                   </p>
-                  <img
-                    src="assets/img/brands/stamps.png"
+                  <ImgStamps
                     alt="not found"
                     class="img-fluid"
                   />
@@ -1803,8 +1818,7 @@ export default component$(() => {
                 <div class="blog-card bg-white deep-shadow rounded">
                   <div class="feature-thumb rounded-2 overflow-hidden position-relative">
                     <a href="blog-details.html">
-                      <img
-                        src="assets/img/blog-1.jpg"
+                      <ImgBlog1
                         alt="feature"
                         class="img-fluid"
                       />
@@ -1825,8 +1839,7 @@ export default component$(() => {
                     </p>
                     <div class="blog-author mt-4 d-flex align-items-start align-items-sm-center justify-content-between">
                       <div class="author-left d-flex align-items-center">
-                        <img
-                          src="assets/img/author-1.png"
+                        <ImgAuthor1
                           alt="author"
                           class="img-fluid rounded-circle flex-shrink-0"
                         />
@@ -1855,8 +1868,7 @@ export default component$(() => {
                     <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
                       <div class="feature-thumb position-relative">
                         <a href="blog-details.html">
-                          <img
-                            src="assets/img/blog-2.jpg"
+                          <ImgBlog2
                             alt="feature"
                             class="img-fluid rounded-left"
                           />
@@ -1873,8 +1885,7 @@ export default component$(() => {
                         </a>
                         <div class="blog-author mt-4 d-flex align-items-start align-items-sm-center justify-content-between">
                           <div class="author-left d-flex align-items-center">
-                            <img
-                              src="assets/img/author-2.png"
+                            <ImgAuthor2
                               alt="author"
                               class="img-fluid rounded-circle flex-shrink-0"
                             />
@@ -1897,8 +1908,7 @@ export default component$(() => {
                     <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
                       <div class="feature-thumb position-relative">
                         <a href="blog-details.html">
-                          <img
-                            src="assets/img/blog-3.jpg"
+                          <ImgBlog3
                             alt="feature"
                             class="img-fluid rounded-left"
                           />
@@ -1915,8 +1925,7 @@ export default component$(() => {
                         </a>
                         <div class="blog-author mt-4 d-flex align-items-start align-items-sm-center justify-content-between">
                           <div class="author-left d-flex align-items-center">
-                            <img
-                              src="assets/img/author-3.png"
+                            <ImgAuthor3
                               alt="author"
                               class="img-fluid rounded-circle flex-shrink-0"
                             />
@@ -1939,8 +1948,7 @@ export default component$(() => {
                     <div class="blog-card d-flex align-items-center bg-white deep-shadow p-25 rounded-2">
                       <div class="feature-thumb position-relative">
                         <a href="blog-details.html">
-                          <img
-                            src="assets/img/blog-4.jpg"
+                          <ImgBlog4
                             alt="feature"
                             class="img-fluid rounded-left"
                           />
@@ -1957,8 +1965,7 @@ export default component$(() => {
                         </a>
                         <div class="blog-author mt-4 d-flex align-items-start align-items-sm-center justify-content-between">
                           <div class="author-left d-flex align-items-center">
-                            <img
-                              src="assets/img/author-4.png"
+                            <ImgAuthor4
                               alt="author"
                               class="img-fluid rounded-circle flex-shrink-0"
                             />
@@ -2003,8 +2010,7 @@ export default component$(() => {
             <div class="row g-4 justify-content-center">
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                 <div class="app_list_item bg-white deep-shadow rounded-2 d-flex align-items-center">
-                  <img
-                    src="assets/img/brands/joomla.png"
+                  <ImgJoomla
                     alt="joomla"
                     class="img-fluid flex-shrink-0 rounded-circle"
                   />
@@ -2013,8 +2019,7 @@ export default component$(() => {
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                 <div class="app_list_item bg-white deep-shadow rounded-2 d-flex align-items-center">
-                  <img
-                    src="assets/img/brands/app-2.png"
+                  <ImgApp2
                     alt="joomla"
                     class="img-fluid flex-shrink-0 rounded-circle"
                   />
@@ -2023,8 +2028,7 @@ export default component$(() => {
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                 <div class="app_list_item bg-white deep-shadow rounded-2 d-flex align-items-center">
-                  <img
-                    src="assets/img/brands/osticker.png"
+                  <ImgOsticker
                     alt="joomla"
                     class="img-fluid flex-shrink-0 rounded-circle"
                   />
@@ -2033,8 +2037,7 @@ export default component$(() => {
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                 <div class="app_list_item bg-white deep-shadow rounded-2 d-flex align-items-center">
-                  <img
-                    src="assets/img/brands/zencart.png"
+                  <ImgZencart
                     alt="joomla"
                     class="img-fluid flex-shrink-0 rounded-circle"
                   />
@@ -2043,8 +2046,7 @@ export default component$(() => {
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                 <div class="app_list_item bg-white deep-shadow rounded-2 d-flex align-items-center">
-                  <img
-                    src="assets/img/brands/mobile.png"
+                  <ImgMobile
                     alt="joomla"
                     class="img-fluid flex-shrink-0 rounded-circle"
                   />
@@ -2053,8 +2055,7 @@ export default component$(() => {
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                 <div class="app_list_item bg-white deep-shadow rounded-2 d-flex align-items-center">
-                  <img
-                    src="assets/img/brands/wordpress.png"
+                  <ImgWordpress
                     alt="joomla"
                     class="img-fluid flex-shrink-0 rounded-circle"
                   />
@@ -2063,8 +2064,7 @@ export default component$(() => {
               </div>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                 <div class="app_list_item bg-white deep-shadow rounded-2 d-flex align-items-center">
-                  <img
-                    src="assets/img/brands/app-3.png"
+                  <ImgApp3
                     alt="joomla"
                     class="img-fluid flex-shrink-0 rounded-circle"
                   />
