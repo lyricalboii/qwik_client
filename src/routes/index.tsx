@@ -20,7 +20,7 @@ import ImgOsticker from '~/media/assets/img/brands/osticker.png?jsx';
 import ImgMobile from '~/media/assets/img/brands/mobile.png?jsx';
 import ImgWordpress from '~/media/assets/img/brands/wordpress.png?jsx';
 import ImgZencart from '~/media/assets/img/brands/zencart.png?jsx';
-import ImgApp3 from '~/media/assets/img/brands/app-3.png?jsx';import { component$ } from "@builder.io/qwik";
+import ImgApp3 from '~/media/assets/img/brands/app-3.png?jsx'; import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
@@ -32,7 +32,7 @@ export default component$(() => {
           <i class="fa-solid fa-xmark" />
         </button>
         <a href="index.html" class="logo-wrapper">
-          <img src="assets/img/logo.png" alt="logo"  class="logo logo-black" />
+          <img src="assets/img/logo.png" alt="logo" class="logo logo-black" />
         </a>
         <a href="index.html" class="logo-wrapper">
           <img
@@ -635,7 +635,7 @@ export default component$(() => {
               </div>
               <div class="col-lg-6">
                 <div class="hero-right">
-                  <img width="702" height="626" srcSet="assets/img/hero-img.png"  alt="hero image" />
+                  <img width="702" height="626" srcSet="assets/img/hero-img.png" alt="hero image" />
                 </div>
               </div>
             </div>
